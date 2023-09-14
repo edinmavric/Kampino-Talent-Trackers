@@ -5,6 +5,7 @@ import Basketball from './components/Basketball';
 import Football from './components/Football';
 import Volleyball from './components/Volleyball';
 import Page404 from './components/404';
+import SinglePlayer from './components/SinglePlayer';
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
                 <Route element={<Basketball />} path="/basketball" />
                 <Route element={<Football />} path="/football" />
                 <Route element={<Volleyball />} path="/volleyball" />
+                <Route element={<SinglePlayer />} path="/single-player" />
                 <Route element={<Page404 />} path="*" />
             </Routes>
         </>
